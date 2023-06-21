@@ -17,6 +17,8 @@ public class Main {
         System.out.println(van.marca);
         System.out.println(van.modelo);
 
+        van.exibirAutonomia();
+
         Carro fusca = new Carro();
         fusca.marca = "Volkswagen";
         fusca.modelo = "Fusca";

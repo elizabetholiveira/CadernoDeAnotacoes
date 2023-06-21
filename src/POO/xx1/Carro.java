@@ -7,4 +7,8 @@ public class Carro {
     int numPassageiros;
     double capCombustivel; //capacidade do tanque de combustível
     double consumoCombustivel; //consumo de combustível por km
+
+    void exibirAutonomia(){
+        System.out.println("A autonomia do carro é: " + capCombustivel * consumoCombustivel + " km");
+    };
 }
