@@ -1,0 +1,51 @@
+- Princípio da POO que permite a criação de novas classes a partir de outras previamentes criadas
+- Essas novas classes são chamadas de subclasses ou classes derivadas
+- As clases que deram origem às subclasses são chamadas de superclasses, ou classes base
+- Hierarquia de classes(classes mais amplas e classes mais específicas)
+- Uma subclasse herda métodos e atributos de sua superclasse, apesar disso, pode escreve-los novamente para uma forma mais
+específica de representar o comportamento do método herdado.
+
+- Para que não escrevamos o mesmo código duas ou mais vezes em classes diferentes, podemos criar uma só superclasse cha-
+mada "Pessoa" para representar todos os atores, inserindo nela os comportamentos comuns a todos os tipos de "pessoas".
+Este processo tem o nome da Generalização.
+
+-----
+Classe Pessoa:
+//
+import java.uti.Date;
+public class Pessoa {
+    public String nome;
+    public String cpf;
+    public Date data_nascimento;
+
+    public Pessoa(String _nome, String _cpf, Date _data) {
+        this.nome = _nome;
+        this.cpf = _cpf;
+        this.data_nascimento = _data;
+    }
+}
+//
+Em Java, criamos classes derivadas utilizando a palavra "extends", seguido do nome da superclasse
+Classe aluno:
+//
+import java.util.Date;
+public class Aluno extends Pessoa{
+    public Aluno(String _nome, String _cpf, Date _data) {
+        super(_nome, _cpf, _data);
+    }
+    public String matricula;
+}
+A palavra "super" representa uma chamada de método ou acesso a um atributo da superclasse
+No nosso caso, estamos usando o super para invocar construtor da superclasse Pessoa, que recebe os três parametros e pre-
+enche os atributos do objeto.
+Então quando criarmos um objeto do tipo Aluno, por exemplo, utilizando
+new Aluno("nome", "cpf", new Date())
+a classe Aluno invocará o construtor Pessoa(String, String, Date), e então seus atributos serão preenchidos com os dados
+-----
+
+- Todos os mótodos públicos e protegidos da superclasse serão herdados, caso utilize-se o extends
+- Métodos e atributos privados não serão herados e não teremos acesso a eles nem com a utilização da palavra especial super
+
+----------
+
+DevMedia: Entendendo e Aplicando Herança em Java
