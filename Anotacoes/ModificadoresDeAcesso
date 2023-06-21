@@ -1,0 +1,43 @@
+- Padrões de visibilidade de acessos à classes, atributos e métodos
+- Existem 3 modificadores(private, protected e public) e com isso temos 4 níveis de visibilidade(private, default, pro-
+tected e public)
+- Boa prática ter a maioria das declarações como private para garantir a segurança de alterações acidentais, sendo somen-
+te acessíveis através dos métodos.
+- Ajuda no encapsulamento de dados, preservando ainda mais a segurança e a aplicação da POO do Java
+
+//ToDo # Private
+tradução "private" = privado
+- A única classe que tem acesso ao atributo é a própria classe que o define, ou seja, se uma classe "Pessoa" declara um
+atributo privado chamado "nome", somente a classe "Pessoa" terá acesso a ele.
+- Os membros da classe(definidos como private) não podem ser acessados ou usados por nenhuma outra classe
+- Esse modificador não se aplica às classes, somento para seus métodos e atributos
+- Esses atributos e métodos também não podem ser visualizados pelas classes herdadas
+
+//ToDo # Default
+tradução "default" = padrão
+- Tem acesso a um atributo default(identificado pela ausência de modificadores) todas as classes que estiverem no mesmo
+pacote que a classe que possui o atributo.
+
+//ToDo # Protected
+tradução "protected" = protegido
+- Se diferencia do default por se uma classe(mesmo que esteja fora do pacote) estende da classe com o atributo protected,
+ela terá acesso a ele.
+- Acesso por pacote e por herança
+- Seus membros herdados não são acessíveis a outras classes fora do pacote em que foram declarados
+
+//ToDo # Public
+tradução "public" = público
+- Todos que podem visualizar a classe a que ela pertence têm acesso
+
+-----
+
+                                    | private | default | protected | public |
+mesma classe                        |   sim   |   sim   |    sim    |  sim   |
+mesmo pacote                        |   não   |   sim   |    sim    |  sim   |
+pacotes diferentes (subclasses)     |   não   |   sim   |    sim    |  sim   |
+pacotes diferentes (sem subclasses) |   não   |   não   |    não    |  sim   |
+
+----------
+
+DevMedia: Métodos, atributos e classes no Java
+StackOverflow: Qual é a diferença entre modificadores public, default, protected e private?

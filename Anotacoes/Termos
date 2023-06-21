@@ -1,0 +1,22 @@
+//ToDo # Implementação
+- A implementação é frequentemente usada no mundo da tecnologia para descrever as interações de elementos nas linguagens
+de programação. Em Java, onde a palavra é usada com frequência, implementar é reconhecer e usar um elemento de código ou
+um recurso de programação gravado no programa.
+
+//ToDo # APIs
+- As APIs são um conjunto de padrões que fazem parte de uma interface.
+
+//ToDo # Encapsulamento
+- É um conceito da POO onde o estado de objetos(as variáveis da classe) e seus comportamentos(os métodos da classe) são
+agrupados em conjuntos segundo o seu grau de relação.
+- O propósito do encapsulamento é o de organizar os dados que sejam relacionados, agrupando-os(encapsulando-os) em obje-
+tos(classes), reduzindo as colisões de nomes de variáveis e, da mesma forma, reunindo métodos relacionados às suas pro-
+priedades(ou variáveis de classe).
+- Ajuda a manter um programa com centenas ou milhares de linhas de código mais legível e fácil de trabalhar e manter.
+- A ocultação de informações é considerada parte do encapsulamento.
+
+----------
+
+The Astrology Page: O que é implementação?
+TechTudo: O que é API e para que serve? Cinco perguntas e respostas
+DevMedia: Encapsulamento em Java: Primeiros passos

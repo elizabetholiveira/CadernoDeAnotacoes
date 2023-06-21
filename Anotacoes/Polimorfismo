@@ -1,0 +1,18 @@
+- Permite ao desenvolvedor usar o mesmo elemento de formas diferentes
+- Polimorfismo Estático ou Sobrecarga (Overload)
+- Polimorfismo Dinâmico ou Sobreposição (Override)
+
+//ToDo # Polimorfismo Estático / Sobrecarga / Overload
+- Se dá quando temos a mesma operação implementada várias vezes na mesma classe
+- A escolha de qual operação será chamada depende da assinatura dos métodos sobrecarregados
+
+//ToDo # Polimorfismo Dinâmico / Sobreposição / Sobrescrita / Override
+- Acontece na herança quando a subclasse sobrepõe o método original
+- A sobrescrita de métodos pode ser classificada como polimorfismo de inclusão
+- Quando um método sobrescreve um método herdado de uma classe temos uma sobrescrita de método
+- O método de sobrescrita precisa ter o mesmo nome, valor de retorno e argumentos do método da classe herdada. Portanto,
+temos que uma classe filha fornece apenas uma nova implementação para o método herdado e não um novo método.
+
+----------
+
+DevMedia: Uso de Polimorfismo em Java

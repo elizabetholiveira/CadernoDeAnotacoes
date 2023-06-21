@@ -1,0 +1,57 @@
+- Os métodos GET e SET são técnicas padronizadas para gerenciamento sobre o acesso dos atributos
+- Nesses métodos determinamos quando será alterado um atributo e o acesso ao mesmo
+- Tornando o controle e modificações mais práticas e limpas
+- Sem alterar a assinatura do método usado para acesso ao atributo
+
+- Para acesso a atributos privados devemos colocar GET ou SET antes do nome do atributo
+    - Atributos são propriedades de um objetos (também conhecidos como variáveis ou campos)
+
+//ToDo # Método GET
+tradução "get" = pegar
+- Acessar/pegar atributos de uma classe
+- Método com retorno(também chamado de função pelo site):
+    //
+    public String getNomeProduto(){
+    return nomeproduto;
+    }
+    //
+- Métodos Acessores(GETTERS)
+
+//ToDo # Método SET
+tradução "set" = definir
+- Alterar/modificar valores de um atributo da classe de maneira protegida
+- Método sem retorno(também chamado de procedimento pelo site):
+    //
+    public void setNomeProduto(Stringnomeproduto){
+    this.nomeproduto = nomeproduto;
+    }
+    //
+- Métodos Modificadores(SETTERS) (caso a classe seja mutável)
+
+-----
+
+//
+public class Ponto{
+    private double x;
+    private double y;
+
+    public Ponto(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() { return x; }
+
+    public double getY() { return y; }
+
+    public void setX(double x) { this.x = x; }
+
+    public void setY(double y) { this.y = y; }
+
+}
+//
+
+----------
+
+DevMedia: Criando métodos GET e SET em Java
+DevMedia: GET e SET - Métodos Acessores em Java
