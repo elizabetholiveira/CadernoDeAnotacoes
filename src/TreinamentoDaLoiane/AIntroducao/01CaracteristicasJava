@@ -1,0 +1,35 @@
+Código Fonte do curso: https://github.com/loiane/curso-java-basico
+
+Java é uma linguagem de programação:
+
+- Simples;
+- Orientada a Objetos;
+- Distribuída;
+- Multithreaded;
+- Dinâmica;
+- Arquitetura neutra;
+- Portável;
+- Ótima performance;
+- Robusta;
+- Segura.
+
+Write Once Run Anywhere
+
+Pai do Java: James Gosling (ele tá no Facebook)
+Inventou o Java quando tava na Sun Microsystems
+Hoje em dia o Java é da Oracle
+
+The Java VIrtual Machine
+The Java Application Programming Interface(API)
+
+Estudado no curso: Java SE
+
+Trabalhar com Java em servidores também é conhecido como Java web.
+O Java FX veio para substituir o Swing
+Seguir o Vinicius Senger(vsenger) se quiser ver mais sobre Java Embedded e Robótica
+
+           | Servers | Desktop | Embedded |       TV       | Mobile | Cartão
+APIs Chave | Java EE | Java FX |          | BD-J / Java TV |   MSA  |
+Plataforma |          Java SE        |           Java ME            | Java Card
+Linguagem  |                           Linguagem Java
+                                       Plataforma Java

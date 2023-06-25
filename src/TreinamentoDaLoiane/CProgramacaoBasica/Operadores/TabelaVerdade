@@ -1,0 +1,17 @@
+Operadores:
+Operador | Descrição
+    &    |   AND
+    |    |   OR
+    ^    |   XOR
+    ||   |   OR curto circuito
+    &&   |   AND curto circuito
+    !    |   NOT
+
+Tabela verdade:
+  a        |  b         |  a&b       |  a|b       |  a^b       |  !a
+Falso      | Falso      | Falso      | Falso      | Falso      | Verdadeiro
+Verdadeiro | Falso      | Falso      | Verdadeiro | Verdadeiro | Falso
+Falso      | Verdadeiro | Falso      | Verdadeiro | Verdadeiro | Verdadeiro
+Verdadeiro | Verdadeiro | Verdadeiro | Verdadeiro | Falso      | Falso
+
+Basicamente o XOR (a^b) dá verdadeiro se a e b forem diferentes
