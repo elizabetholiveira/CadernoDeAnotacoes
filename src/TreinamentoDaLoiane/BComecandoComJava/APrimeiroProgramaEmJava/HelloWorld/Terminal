@@ -1,0 +1,3 @@
+PS C:\Users\[...]> javac HelloWorld.java
+PS C:\Users\[...]> java HelloWorld
+Hello World!

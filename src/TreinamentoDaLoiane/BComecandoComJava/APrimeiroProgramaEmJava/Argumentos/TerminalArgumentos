@@ -1,0 +1,3 @@
+PS C: \Users\[...] > javac Argumentos.java
+PS C: \Users\[...] > java Argumentos "Oie"
+Voce digitou Oie
