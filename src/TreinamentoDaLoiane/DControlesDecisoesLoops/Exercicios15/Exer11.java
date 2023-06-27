@@ -12,9 +12,9 @@ public class Exer11 {
         double salario = scan.nextDouble();
 
         boolean aumento20 = salario <= 280.0;
-        boolean aumento15 = salario > 280.0 && salario < 700.0;
-        boolean aumento10 = salario >= 700.0 && salario < 1500.0;
-        boolean aumento5 = salario >= 1500.00;
+        boolean aumento15 = salario > 280.0 && salario <= 700.0;
+        boolean aumento10 = salario > 700.0 && salario <= 1500.0;
+        boolean aumento5 = salario > 1500.00;
 
         System.out.println("Salário antigo: " + salario);
 

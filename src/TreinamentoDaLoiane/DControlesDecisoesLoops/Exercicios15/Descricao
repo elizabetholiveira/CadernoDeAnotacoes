@@ -91,4 +91,55 @@ demais valores, sendo encerrado;
     c. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
     d. Se o delta for positivo, a equação possui duas raízes reais; informe-as ao usuário.
 
-17. Faça um programa que peça um número correspondente a um determinado
+17. Faça um programa que peça um número correspondente a um determinado ano e em seguida informe se este ano é ou não
+bissexto.
+
+18. Faça um programa que peça um número inteiro e determine se ele é par ou ímpar. Dica: utilize o operador de módulo
+(resto da divisão).
+
+19. Faça um programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado
+da operação deve ser acompanhado de uma frase que diga se o número é:
+    a. par ou ímpar;
+    b. positivo ou negativo;
+
+20. Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
+    a. "Telefonou para a vítima?";
+    b. "Esteve no local do crime?";
+    c. "Mora perto da vítima?";
+    d. "Devia para a vítima?";
+    e. "Já trabalhou com a vítima?".
+    O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder po-
+sitivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
+Caso contrário, ele será classificado como "Inocente".
+
+21. Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+    - Álcool:
+        a. até 20 litros, desconto de 3% por litro;
+        b. acima de 20 litros, desconto de 5% por litro.
+    - Gasolina:
+        a. até 20 litros, desconto de 4% por litro;
+        b. acima de 20 litros, desconto de 6% por litro.
+    Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível(codificado da seguinte forma:
+    A - álcool;
+    G - gasolina.)
+, calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$2,50 o preço do li-
+tro do álcool é R$1,90.
+
+22. Uma fruteira está vendendo frutas com a seguinte tabela de preços:
+                | Até 5kg        | Acima de 5kg
+        Morango | R$ 2,50 por kg | R$ 2,20 por kg
+        Maçã    | R$ 1,80 por kg | R$ 1,50 por kg
+        Se o cliente comprar mais de 8kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá ainda um des-
+    conto de 10% sobre este total. Escreva um algoritmo para ler a quantidade(em kg) de morangos e a quantidade(em kg) de
+    maçãs adquiridas e escreva o valor a ser pago pelo cliente.
+
+23. O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
+                   | Até 5kg        | Acima de 5kg
+        Filé Duplo | R$ 4,90 por kg | R$ 5,80 por kg
+        Alcatra    | R$ 5,90 por kg | R$ 6,80 por kg
+        Picanha    | R$ 6,90 por kg | R$ 7,80 por kg
+    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da promoção, porém não há
+limites para a quantidade de carne por cliente. Se a compra for feita no cartão Tabajara o cliente receberá ainda um
+desconto de 5% sobre o total a compra. Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário
+e gere um cupom fiscal, contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento,
+valor do desconto e valor a pagar.
